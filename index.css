@@ -12,6 +12,7 @@ body {
 
 body > * {
   all: unset;
+  color: wheat;
 }
 
 button {
@@ -41,4 +42,33 @@ button {
   width: 100%;
   z-index: -1;
   animation: fadeIn 0.3s linear;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.js-clock {
+  font-size: 30px;
+}
+
+.js-weather {
+  font-size: 30px;
+}
+
+.js-greetings {
+  font-size: 30px;
+}
+
+.js-toDoList {
+  color: black;
+}
+
+.js-toDoForm > input {
+  border-radius: 10px;
+  height: 30px;
 }

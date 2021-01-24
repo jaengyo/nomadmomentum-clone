@@ -58,17 +58,25 @@ main {
 
 .js-weather {
   font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .js-greetings {
   font-size: 30px;
 }
 
-.js-toDoList {
-  color: black;
+input {
+  height: 30px;
+  margin: 10px;
+  outline: darkcyan;
+  border: none;
+  background: none;
+  color: wheat;
 }
 
-.js-toDoForm > input {
-  border-radius: 10px;
-  height: 30px;
+input::placeholder {
+  color: wheat;
+  font-weight: 900;
 }
